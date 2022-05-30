@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: #111111;
+    color: whitesmoke;
+    font-family: lettersforlearners;
+    font-size: 30px;
+    }
+
+div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+#mundo {
+    width: 1000px;
+}
+
+#name{
+    margin-left: 25px;
+}
+
+#logo {
+    width: 2em;
+}
+
+span {
+    color: aqua;
+}
+
+form {
+    margin: 30px;
+    width: 50px;
+}
+
+li{
+    display: inline-block;
+    margin: 30px;
+}
+
+h1 {
+    font-size: 95px;
+    text-align: center;
+}
+p {
+    max-width: 700px;
+    margin: 30px;
+    text-align: center;
+    margin-left: 40;
+}
+aside{
+    margin: 25px;
+    margin-top: 150px;
+}
