@@ -42,6 +42,9 @@ main {
 
 #name{
     margin-left: 25px;
+    position: relative;
+    left: 50px;
+    bottom: 45px;
 }
 
 #home {
@@ -52,12 +55,22 @@ main {
     
 }
 
-#home:hover {
+.home_c{
+    display: inline-block;
+    width: 200px;
+    height: 90px;
+}
+
+.home_c:hover {
+
     background-color: #2c2c2c;
 }
 
 #logo {
     width: 2em;
+    position: relative;
+    top: 10px;
+    left: 10px;
 }
 
 #metaverse {
@@ -70,14 +83,16 @@ li.home_left{
     color: white;
 }
 
-
+.logo {
+    list-style-type: none;
+    display: inline;
+}
 
 .inicial {
     display: inline-block;
 }
 
 .inicial:hover {
-    color: rgb(212, 210, 210);
     background-color: #2c2c2c;
     transition: 0.5s;
 }
